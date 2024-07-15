@@ -1,0 +1,64 @@
+{
+  "locations": {
+    "Town X": {
+      "size": "large",
+      "ruler": "king",
+      "population": 1000,
+      "wealth": 500,
+      "source": ["iron", "gold"],
+      "garrison": [50, 5],
+      "militia": [30, 3],
+      "notes": "Main city"
+    },
+    "Town Y": {
+      "size": "small",
+      "ruler": "duke",
+      "population": 300,
+      "wealth": 200,
+      "source": ["wood"],
+      "garrison": [20, 4],
+      "militia": [15, 2],
+      "notes": "Forest town"
+    },
+    "Town A": {
+      "size": "village",
+      "ruler": "baron",
+      "population": 100,
+      "wealth": 100,
+      "source": ["grain"],
+      "garrison": [10, 3],
+      "militia": [5, 1],
+      "notes": "Farmland"
+    },
+    "Town B": {
+      "size": "town",
+      "ruler": "earl",
+      "population": 500,
+      "wealth": 300,
+      "source": ["coal"],
+      "garrison": [40, 4],
+      "militia": [20, 2],
+      "notes": "Mining town"
+    },
+    "Town C": {
+      "size": "town",
+      "ruler": "count",
+      "population": 400,
+      "wealth": 250,
+      "source": ["gold"],
+      "garrison": [35, 3],
+      "militia": [25, 3],
+      "notes": "Rich town"
+    },
+    "Altdorf": {
+      "size": "village",
+      "ruler": "baron",
+      "population": 100,
+      "wealth": 100,
+      "source": ["grain"],
+      "garrison": [10, 3],
+      "militia": [5, 1],
+      "notes": "Farmland"
+    }
+  }
+}

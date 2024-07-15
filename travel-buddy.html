@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Map Pathfinding</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/1.0.0/css/bulma.min.css">
+    <script src="pathfinding.js" defer></script>
+    <script src="map.js" defer></script>
+</head>
+<body>
+<section class="section">
+    <div class="container">
+        <h1 class="title">Map Pathfinding</h1>
+        <div class="field">
+            <label class="label" for="start">Start:</label>
+            <div class="control">
+                <input class="input" type="text" id="start" name="start" list="start-locations">
+                <datalist id="start-locations"></datalist>
+            </div>
+        </div>
+        <div class="field">
+            <label class="label" for="end">End:</label>
+            <div class="control">
+                <input class="input" type="text" id="end" name="end" list="end-locations">
+                <datalist id="end-locations"></datalist>
+            </div>
+        </div>
+        <div class="control">
+            <button class="button is-primary" onclick="findPath()">Find Path</button>
+        </div>
+        <h2 class="title is-4">Path:</h2>
+        <div id="path"></div>
+    </div>
+</section>
+</body>
+</html>
