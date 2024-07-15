@@ -1,5 +1,26 @@
 from;to;distance;difficulty
 Bögenhafen;Herzhald;1;1
-Bögenhafen;Ardlich;1;1
-Bögenhafen;Grubervon;1;1
-Bögenhafen;Havelfurt
+Herzhald;Vorenau;2;1
+Vorenau;Trosreut;1;1
+Trosreut;Kholvin;1;1
+Kholvin;Weissbruck;2;1
+Weissbruck;Schlafenbild;1;1
+Schlafenbild;Hartsklein;1;1
+Hartsklein;Altdorf;1;1
+Altdorf;Kaldach;1;1
+Kaldach;Autler;1;1
+Autler;Fielbach;2;2
+Fielbach;Nadjagard;1;1
+Nadjagard;Castle Reikgard;0;1
+Castle Reikgard;Silburwurt;2;1
+Silburwurt;Grunberg;0;1
+Grunberg;Hornlack;2;1
+Hornlack;Mackendorf;2;1
+Mackendorf;Dresschler;2;1
+Dresschler;Auerswald;1;1
+Auerswald;Gladisch;1;1
+Gladisch;Holgau;1;1
+Auerswald;Steche;0;1
+-
+Bögenhafen;Finsterbad;1;1
+

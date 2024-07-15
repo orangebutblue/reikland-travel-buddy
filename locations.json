@@ -23,6 +23,7 @@
         "0"
       ],
       "garrison": "0",
+      "militia": "0",
       "fief": "Altdorf",
       "notes": "Wiped out by Red Pox in 2511"
     },
@@ -1032,7 +1033,7 @@
     "Altdorf": {
       "size": "Cs",
       "ruler": "Emperor KarlFranz I Holswig-Schliestein",
-      "population": 105000,
+      "population": 1000000,
       "wealth": 5,
       "source": [
         "Trade",
@@ -1043,7 +1044,7 @@
       "fief": "Altdorf",
       "notes": "Imperial Capital, Great Cathedral of Sigmar, University of Altdorf, Schools of Wizardry"
     },
-    "Castle reikguard": {
+    "Castle Reikguard": {
       "size": "F",
       "ruler": "Emperor",
       "population": 300,
