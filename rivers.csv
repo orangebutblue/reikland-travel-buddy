@@ -1,8 +1,5 @@
 from;to;distance;difficulty
-Town X;Town Y;1;1
-Town X;Town Z;2;1
-Town X;Town A;1;2
-Town X;Town B;9;2
-Town Y;Town A;2;1
-Town Y;Town B;2;2
-Town B;Town C;3;2
+Bögenhafen;Herzhald;1;1
+Bögenhafen;Ardlich;1;1
+Bögenhafen;Grubervon;1;1
+Bögenhafen;Havelfurt

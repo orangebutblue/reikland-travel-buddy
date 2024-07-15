@@ -82,6 +82,9 @@ function createTableRow(header, value) {
 }
 
 function createLocationDetails(locInfo) {
+    const garrison = locInfo.garrison !== '-' ? locInfo.garrison : 'None';
+    const militia = locInfo.militia !== '-' ? locInfo.militia : 'None';
+
     return `
         <table class="table is-fullwidth">
             <tbody>
@@ -90,12 +93,14 @@ function createLocationDetails(locInfo) {
                 ${createTableRow('Population', locInfo.population)}
                 ${createTableRow('Wealth', locInfo.wealth)}
                 ${createTableRow('Source', locInfo.source.map(src => `<a href="#" onclick="filterLocations('source', '${src}')">${src}</a>`).join(', '))}
-                ${createTableRow('Garrison', locInfo.garrison.join(', '))}
-                ${createTableRow('Militia', locInfo.militia.join(', '))}
+                ${createTableRow('Garrison', garrison)}
+                ${createTableRow('Militia', militia)}
+                ${createTableRow('Fief', locInfo.fief)}
                 ${createTableRow('Notes', locInfo.notes)}
             </tbody>
         </table>`;
 }
+
 
 function createLocationBox(loc, locInfo) {
     return `

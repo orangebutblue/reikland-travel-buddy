@@ -253,32 +253,6 @@
       "fief": "Altdorf",
       "notes": "Ferry across River Reik"
     },
-    "CASTLE REIKGUARD": {
-      "size": "F",
-      "ruler": "Emperor",
-      "population": 300,
-      "wealth": 4,
-      "source": [
-        "Government"
-      ],
-      "garrison": "200c",
-      "militia": "-",
-      "fief": "Castle reikguard",
-      "notes": "Seat of the Grand Prince, Fortress"
-    },
-    "DUNKELBURG": {
-      "size": "T",
-      "ruler": "Emperor",
-      "population": 6000,
-      "wealth": 2,
-      "source": [
-        "Agriculture"
-      ],
-      "garrison": "20b",
-      "militia": "150c",
-      "fief": "Dunkelburg",
-      "notes": ""
-    },
     "Barfsheim": {
       "size": "V",
       "ruler": "Emperor",
@@ -357,33 +331,6 @@
       "fief": "Dunkelburg",
       "notes": "Ferry across River Becher"
     },
-    "DIESDORF": {
-      "size": "St",
-      "ruler": "Emperor",
-      "population": 150,
-      "wealth": 2,
-      "source": [
-        "Agriculture"
-      ],
-      "garrison": "-",
-      "militia": "25c",
-      "fief": "Diesdorf",
-      "notes": ""
-    },
-    "EILHART": {
-      "size": "T",
-      "ruler": "Graf Johann von Hardenburg",
-      "population": 2500,
-      "wealth": 3,
-      "source": [
-        "Agriculture",
-        "Wine"
-      ],
-      "garrison": "25b",
-      "militia": "125c",
-      "fief": "Eilhart",
-      "notes": ""
-    },
     "Grefrath": {
       "size": "V",
       "ruler": "Graf von Hardenburg",
@@ -423,20 +370,6 @@
       "militia": "5c",
       "fief": "Eilhart",
       "notes": ""
-    },
-    "GRUNBURG": {
-      "size": "T",
-      "ruler": "Emperor",
-      "population": 2400,
-      "wealth": 2,
-      "source": [
-        "Trade",
-        "Boatbuilding"
-      ],
-      "garrison": "25b",
-      "militia": "100c",
-      "fief": "Grunburg",
-      "notes": "Ferry across River Teufel"
     },
     "Aussen": {
       "size": "V",
@@ -494,44 +427,16 @@
     },
     "Wörlitz": {
       "size": "V",
-      "ruler": "Emperor",
-      "population": 88,
+      "ruler": "Baron Herpin Klasen",
+      "population": 86,
       "wealth": 2,
       "source": [
-        "Agriculture"
+        "Timber",
+        "Fishing"
       ],
-      "garrison": "-",
-      "militia": "10c",
-      "fief": "Grunburg",
-      "notes": ""
-    },
-    "HELMGART": {
-      "size": "T",
-      "ruler": "Margrave Reinhardt von Mackensen",
-      "population": 2200,
-      "wealth": 2,
-      "source": [
-        "Trade",
-        "Ore"
-      ],
-      "garrison": "120a",
-      "militia": "200b",
-      "fief": "Helmgart",
-      "notes": "Guards the Bretonnian border at Axe Bite Pass"
-    },
-    "HOLTHUSEN": {
-      "size": "T",
-      "ruler": "Graf Bernhard Leutze",
-      "population": 3500,
-      "wealth": 3,
-      "source": [
-        "Agriculture",
-        "Wine",
-        "Wool"
-      ],
-      "garrison": "30b",
-      "militia": "150c",
-      "fief": "Holthusen",
+      "garrison": "8b",
+      "militia": "16c",
+      "fief": "Wörlitz",
       "notes": ""
     },
     "Arzfeld": {
@@ -573,21 +478,6 @@
       "fief": "Holthusen",
       "notes": ""
     },
-    "MERXHEIM": {
-      "size": "St",
-      "ruler": "Baroness Sophia von Kusch ",
-      "population": 450,
-      "wealth": 3,
-      "source": [
-        "Timber",
-        "Fish",
-        "Agriculture"
-      ],
-      "garrison": "15b",
-      "militia": "60c",
-      "fief": "Merxheim",
-      "notes": "Ferry across River Mos"
-    },
     "Breithardt": {
       "size": "V",
       "ruler": "Baroness von Kusch",
@@ -613,21 +503,6 @@
       "militia": "8c",
       "fief": "Merxheim",
       "notes": ""
-    },
-    "MÖRLENFURT": {
-      "size": "St",
-      "ruler": "Grandmaster Theodor von Bülow",
-      "population": 250,
-      "wealth": 3,
-      "source": [
-        "Agriculture",
-        "Wine",
-        "Metalworking"
-      ],
-      "garrison": "35a, 40b",
-      "militia": " 30c",
-      "fief": "Mörlenfurt",
-      "notes": "Monastery of the Sigmarite Order of the Fiery Heart"
     },
     "Bülow": {
       "size": "V",
@@ -655,20 +530,6 @@
       "fief": "Mörlenfurt",
       "notes": ""
     },
-    "OSBURG": {
-      "size": "St",
-      "ruler": "Gravin Ursula von Holswig",
-      "population": 210,
-      "wealth": 3,
-      "source": [
-        "Agriculture",
-        "Cattle"
-      ],
-      "garrison": "20b",
-      "militia": "40c",
-      "fief": "Osburg",
-      "notes": "On the Bögenhafen-Helmgart Road"
-    },
     "Kelz": {
       "size": "V",
       "ruler": "Gravin von Holswig",
@@ -694,47 +555,6 @@
       "militia": "5c",
       "fief": "Osburg",
       "notes": ""
-    },
-    "REINSFELD": {
-      "size": "V",
-      "ruler": "Baron Martin Otterbein ",
-      "population": 98,
-      "wealth": 2,
-      "source": [
-        "Timber. Agriculture"
-      ],
-      "garrison": "8b",
-      "militia": "20c",
-      "fief": "Reinsfeld",
-      "notes": ""
-    },
-    "ROTTFURT": {
-      "size": "V",
-      "ruler": "Emperor",
-      "population": 98,
-      "wealth": 1,
-      "source": [
-        "Sheep"
-      ],
-      "garrison": "-",
-      "militia": "10c",
-      "fief": "Rottfurt",
-      "notes": ""
-    },
-    "SCHILDERHEIM": {
-      "size": "T",
-      "ruler": "Graf Robert von Uhland",
-      "population": 5500,
-      "wealth": 3,
-      "source": [
-        "Trade",
-        "Fishing",
-        "Agriculture"
-      ],
-      "garrison": "40b",
-      "militia": "200c",
-      "fief": "Schilderheim",
-      "notes": "Ferry across River Schilder"
     },
     "Batenbrock": {
       "size": "V",
@@ -787,20 +607,6 @@
       "militia": "-",
       "fief": "Schilderheim",
       "notes": ""
-    },
-    "STIMMIGEN": {
-      "size": "T",
-      "ruler": "Graf Heinrich von Falkenhayn",
-      "population": 1750,
-      "wealth": 3,
-      "source": [
-        "Trade",
-        "Agriculture"
-      ],
-      "garrison": "20b",
-      "militia": "250c",
-      "fief": "Stimmigen",
-      "notes": "Toll Bridge, Local market centre"
     },
     "Lachenbad": {
       "size": "V",
@@ -866,21 +672,6 @@
       "militia": "5c",
       "fief": "Stimmigen",
       "notes": ""
-    },
-    "UBERSREIK": {
-      "size": "T",
-      "ruler": "Graf Sigismund von Jungfreud",
-      "population": 3500,
-      "wealth": 4,
-      "source": [
-        "Trade",
-        "Ore",
-        "Metalworking"
-      ],
-      "garrison": "40b",
-      "militia": "500c",
-      "fief": "Ubersreik",
-      "notes": "Seat of the von Jungfreud lands, Ferry"
     },
     "Buchedorf": {
       "size": "V",
@@ -992,20 +783,6 @@
       "fief": "Ubersreik",
       "notes": ""
     },
-    "USSINGEN": {
-      "size": "St",
-      "ruler": "Baron Justus Francke",
-      "population": 182,
-      "wealth": 3,
-      "source": [
-        "Cheese",
-        "Cattle"
-      ],
-      "garrison": "15b",
-      "militia": "40c",
-      "fief": "Ussingen",
-      "notes": "Known for its sharp Ussingener red cheese"
-    },
     "Hähn": {
       "size": "V",
       "ruler": "Baron Francke",
@@ -1032,19 +809,6 @@
       "fief": "Ussingen",
       "notes": ""
     },
-    "WEISSBRUCK": {
-      "size": "St",
-      "ruler": "Emperor (ruled and owned by Gruber family)",
-      "population": 272,
-      "wealth": 2,
-      "source": [
-        "Trade & transport"
-      ],
-      "garrison": "-",
-      "militia": "-",
-      "fief": "Weissbruck",
-      "notes": "Ferry, Lock House on Altdorf Canal"
-    },
     "Delfgruber": {
       "size": "M",
       "ruler": "Emperor (Gruber)",
@@ -1059,47 +823,6 @@
       "militia": "200b",
       "fief": "Weissbruck",
       "notes": "Mining town"
-    },
-    "WITTGENDORF": {
-      "size": "St",
-      "ruler": "Baroness Magritta von Wittgenstein",
-      "population": 120,
-      "wealth": 1,
-      "source": [
-        "Subsistence"
-      ],
-      "garrison": "25b",
-      "militia": "-",
-      "fief": "Wittgendorf",
-      "notes": "Castle mysteriously collapsed in 2512. Avoided by Travellers."
-    },
-    "WÖRLITZ": {
-      "size": "V",
-      "ruler": "Baron Herpin Klasen",
-      "population": 86,
-      "wealth": 2,
-      "source": [
-        "Timber",
-        "Fishing"
-      ],
-      "garrison": "8b",
-      "militia": "16c",
-      "fief": "Wörlitz",
-      "notes": ""
-    },
-    "AUERSWALD": {
-      "size": "T",
-      "ruler": "Graf Ferdinand von Wallenstein",
-      "population": 5000,
-      "wealth": 3,
-      "source": [
-        "Trade",
-        "Ore"
-      ],
-      "garrison": "50b",
-      "militia": "400c",
-      "fief": "Auerswald",
-      "notes": "Ferry across River Teufel"
     },
     "Dresschler": {
       "size": "V",
@@ -1184,21 +907,6 @@
       "fief": "Auerswald",
       "notes": "Ferry across River Teufel"
     },
-    "BÖGENHAFEN": {
-      "size": "T",
-      "ruler": "Graf Wilhelm von Saponatheim",
-      "population": 9000,
-      "wealth": 3,
-      "source": [
-        "Trade",
-        "Wine",
-        "Timber"
-      ],
-      "garrison": "-",
-      "militia": "500c",
-      "fief": "Bögenhafen",
-      "notes": "Largest town in the Reikland, Local market centre"
-    },
     "Ardlich": {
       "size": "V",
       "ruler": "Graf Wilhelm von Saponatheim",
@@ -1266,21 +974,6 @@
       "fief": "Bögenhafen",
       "notes": ""
     },
-    "KEMPERBAD": {
-      "size": "T",
-      "ruler": "Kemperbad Town Council",
-      "population": 7500,
-      "wealth": 4,
-      "source": [
-        "Trade",
-        "Wine",
-        "Brandy"
-      ],
-      "garrison": "20b",
-      "militia": "500b",
-      "fief": "Kemperbad",
-      "notes": "Ferry on River Reik. Finest brandy in Empire from this area"
-    },
     "Berghof": {
       "size": "V",
       "ruler": "Kemperbad Town Council",
@@ -1335,6 +1028,314 @@
       "militia": "30b",
       "fief": "Kemperbad",
       "notes": "Bridge over River Stir"
+    },
+    "Altdorf": {
+      "size": "Cs",
+      "ruler": "Emperor KarlFranz I Holswig-Schliestein",
+      "population": 105000,
+      "wealth": 5,
+      "source": [
+        "Trade",
+        "Government"
+      ],
+      "garrison": "500a",
+      "militia": " 8000c",
+      "fief": "Altdorf",
+      "notes": "Imperial Capital, Great Cathedral of Sigmar, University of Altdorf, Schools of Wizardry"
+    },
+    "Castle reikguard": {
+      "size": "F",
+      "ruler": "Emperor",
+      "population": 300,
+      "wealth": 4,
+      "source": [
+        "Government"
+      ],
+      "garrison": "200c",
+      "militia": "-",
+      "fief": "Castle reikguard",
+      "notes": "Seat of the Grand Prince, Fortress"
+    },
+    "Dunkelburg": {
+      "size": "T",
+      "ruler": "Emperor",
+      "population": 6000,
+      "wealth": 2,
+      "source": [
+        "Agriculture"
+      ],
+      "garrison": "20b",
+      "militia": "150c",
+      "fief": "Dunkelburg",
+      "notes": ""
+    },
+    "Diesdorf": {
+      "size": "St",
+      "ruler": "Emperor",
+      "population": 150,
+      "wealth": 2,
+      "source": [
+        "Agriculture"
+      ],
+      "garrison": "-",
+      "militia": "25c",
+      "fief": "Diesdorf",
+      "notes": ""
+    },
+    "Eilhart": {
+      "size": "T",
+      "ruler": "Graf Johann von Hardenburg",
+      "population": 2500,
+      "wealth": 3,
+      "source": [
+        "Agriculture",
+        "Wine"
+      ],
+      "garrison": "25b",
+      "militia": "125c",
+      "fief": "Eilhart",
+      "notes": ""
+    },
+    "Grunburg": {
+      "size": "T",
+      "ruler": "Emperor",
+      "population": 2400,
+      "wealth": 2,
+      "source": [
+        "Trade",
+        "Boatbuilding"
+      ],
+      "garrison": "25b",
+      "militia": "100c",
+      "fief": "Grunburg",
+      "notes": "Ferry across River Teufel"
+    },
+    "Helmgart": {
+      "size": "T",
+      "ruler": "Margrave Reinhardt von Mackensen",
+      "population": 2200,
+      "wealth": 2,
+      "source": [
+        "Trade",
+        "Ore"
+      ],
+      "garrison": "120a",
+      "militia": "200b",
+      "fief": "Helmgart",
+      "notes": "Guards the Bretonnian border at Axe Bite Pass"
+    },
+    "Holthusen": {
+      "size": "T",
+      "ruler": "Graf Bernhard Leutze",
+      "population": 3500,
+      "wealth": 3,
+      "source": [
+        "Agriculture",
+        "Wine",
+        "Wool"
+      ],
+      "garrison": "30b",
+      "militia": "150c",
+      "fief": "Holthusen",
+      "notes": ""
+    },
+    "Merxheim": {
+      "size": "St",
+      "ruler": "Baroness Sophia von Kusch ",
+      "population": 450,
+      "wealth": 3,
+      "source": [
+        "Timber",
+        "Fish",
+        "Agriculture"
+      ],
+      "garrison": "15b",
+      "militia": "60c",
+      "fief": "Merxheim",
+      "notes": "Ferry across River Mos"
+    },
+    "Mörlenfurt": {
+      "size": "St",
+      "ruler": "Grandmaster Theodor von Bülow",
+      "population": 250,
+      "wealth": 3,
+      "source": [
+        "Agriculture",
+        "Wine",
+        "Metalworking"
+      ],
+      "garrison": "35a, 40b",
+      "militia": " 30c",
+      "fief": "Mörlenfurt",
+      "notes": "Monastery of the Sigmarite Order of the Fiery Heart"
+    },
+    "Osburg": {
+      "size": "St",
+      "ruler": "Gravin Ursula von Holswig",
+      "population": 210,
+      "wealth": 3,
+      "source": [
+        "Agriculture",
+        "Cattle"
+      ],
+      "garrison": "20b",
+      "militia": "40c",
+      "fief": "Osburg",
+      "notes": "On the Bögenhafen-Helmgart Road"
+    },
+    "Reinsfeld": {
+      "size": "V",
+      "ruler": "Baron Martin Otterbein ",
+      "population": 98,
+      "wealth": 2,
+      "source": [
+        "Timber. Agriculture"
+      ],
+      "garrison": "8b",
+      "militia": "20c",
+      "fief": "Reinsfeld",
+      "notes": ""
+    },
+    "Rottfurt": {
+      "size": "V",
+      "ruler": "Emperor",
+      "population": 98,
+      "wealth": 1,
+      "source": [
+        "Sheep"
+      ],
+      "garrison": "-",
+      "militia": "10c",
+      "fief": "Rottfurt",
+      "notes": ""
+    },
+    "Schilderheim": {
+      "size": "T",
+      "ruler": "Graf Robert von Uhland",
+      "population": 5500,
+      "wealth": 3,
+      "source": [
+        "Trade",
+        "Fishing",
+        "Agriculture"
+      ],
+      "garrison": "40b",
+      "militia": "200c",
+      "fief": "Schilderheim",
+      "notes": "Ferry across River Schilder"
+    },
+    "Stimmigen": {
+      "size": "T",
+      "ruler": "Graf Heinrich von Falkenhayn",
+      "population": 1750,
+      "wealth": 3,
+      "source": [
+        "Trade",
+        "Agriculture"
+      ],
+      "garrison": "20b",
+      "militia": "250c",
+      "fief": "Stimmigen",
+      "notes": "Toll Bridge, Local market centre"
+    },
+    "Ubersreik": {
+      "size": "T",
+      "ruler": "Graf Sigismund von Jungfreud",
+      "population": 3500,
+      "wealth": 4,
+      "source": [
+        "Trade",
+        "Ore",
+        "Metalworking"
+      ],
+      "garrison": "40b",
+      "militia": "500c",
+      "fief": "Ubersreik",
+      "notes": "Seat of the von Jungfreud lands, Ferry"
+    },
+    "Ussingen": {
+      "size": "St",
+      "ruler": "Baron Justus Francke",
+      "population": 182,
+      "wealth": 3,
+      "source": [
+        "Cheese",
+        "Cattle"
+      ],
+      "garrison": "15b",
+      "militia": "40c",
+      "fief": "Ussingen",
+      "notes": "Known for its sharp Ussingener red cheese"
+    },
+    "Weissbruck": {
+      "size": "St",
+      "ruler": "Emperor (ruled and owned by Gruber family)",
+      "population": 272,
+      "wealth": 2,
+      "source": [
+        "Trade & transport"
+      ],
+      "garrison": "-",
+      "militia": "-",
+      "fief": "Weissbruck",
+      "notes": "Ferry, Lock House on Altdorf Canal"
+    },
+    "Wittgendorf": {
+      "size": "St",
+      "ruler": "Baroness Magritta von Wittgenstein",
+      "population": 120,
+      "wealth": 1,
+      "source": [
+        "Subsistence"
+      ],
+      "garrison": "25b",
+      "militia": "-",
+      "fief": "Wittgendorf",
+      "notes": "Castle mysteriously collapsed in 2512. Avoided by Travellers."
+    },
+    "Auerswald": {
+      "size": "T",
+      "ruler": "Graf Ferdinand von Wallenstein",
+      "population": 5000,
+      "wealth": 3,
+      "source": [
+        "Trade",
+        "Ore"
+      ],
+      "garrison": "50b",
+      "militia": "400c",
+      "fief": "Auerswald",
+      "notes": "Ferry across River Teufel"
+    },
+    "Bögenhafen": {
+      "size": "T",
+      "ruler": "Graf Wilhelm von Saponatheim",
+      "population": 9000,
+      "wealth": 3,
+      "source": [
+        "Trade",
+        "Wine",
+        "Timber"
+      ],
+      "garrison": "-",
+      "militia": "500c",
+      "fief": "Bögenhafen",
+      "notes": "Largest town in the Reikland, Local market centre"
+    },
+    "Kemperbad": {
+      "size": "T",
+      "ruler": "Kemperbad Town Council",
+      "population": 7500,
+      "wealth": 4,
+      "source": [
+        "Trade",
+        "Wine",
+        "Brandy"
+      ],
+      "garrison": "20b",
+      "militia": "500b",
+      "fief": "Kemperbad",
+      "notes": "Ferry on River Reik. Finest brandy in Empire from this area"
     }
   }
 }
