@@ -1,19 +1,21 @@
 let locations = {};
 let graph = {};
+let seasonalPrices = {};
+let goodsList = [];
 
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('locations.json')
-        .then(response => response.json())
-        .then(data => {
-            locations = data.locations;
+    Promise.all([
+        fetch('data/locations.json').then(response => response.json()),
+        fetch('data/rivers.csv').then(response => response.text()),
+        fetch('data/seasonal_prices.csv').then(response => response.text())
+    ])
+        .then(([locationsData, riversData, seasonalPricesData]) => {
+            locations = locationsData.locations;
             console.log("Locations loaded:", locations);
             populateDatalists();
-            return fetch('rivers.csv');
-        })
-        .then(response => response.text())
-        .then(data => {
-            const rows = CSVToArray(data, ';');
-            rows.slice(1).forEach(row => {
+
+            const riverRows = CSVToArray(riversData, ';');
+            riverRows.slice(1).forEach(row => {
                 if (row[0] && row[1] && row[2] && row[3]) {
                     graph[row[0]] = graph[row[0]] || [];
                     graph[row[0]].push({ to: row[1], distance: parseInt(row[2]), difficulty: parseInt(row[3]) });
@@ -22,6 +24,20 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             });
             console.log("Graph:", graph);
+
+            const seasonalRows = CSVToArray(seasonalPricesData, ';');
+            seasonalRows.slice(1).forEach(row => {
+                const [good, spring, summer, autumn, winter] = row;
+                seasonalPrices[good.toLowerCase()] = {
+                    spring: parseFloat(spring),
+                    summer: parseFloat(summer),
+                    autumn: parseFloat(autumn),
+                    winter: parseFloat(winter)
+                };
+                goodsList.push(good);
+            });
+            console.log("Seasonal Prices:", seasonalPrices);
+            console.log("Goods List:", goodsList);
         })
         .catch(error => console.error('Error loading data:', error));
 });
